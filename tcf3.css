@@ -1,0 +1,212 @@
+.div1{
+    background-color: rgb(37, 89, 246);
+    color: white;
+    margin: -8px;
+    padding: 18px;
+    background-size: cover;
+    
+}
+
+.div11 {
+    font-size: 18px;
+    margin: 15% ;
+
+    font-weight: bold;
+    font-family:sans-serif, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,  sans-serif;
+}
+
+.div12{
+    margin: 1%;
+    color: white;
+}
+
+.reseau{
+    margin-left: 0.5%;
+    color: white;
+}
+.div12:hover,.reseau:hover{
+    opacity: 50%;
+}
+
+.imgtcf{
+    position: relative; 
+    top: 15%; 
+    left:40%;
+    width: 60%; 
+    height: auto;   
+}
+.div2{
+    position:static;
+    display: flex;
+    padding-left: 10%;
+
+}
+.div21, .connecter{
+    
+    position: relative;
+    width: 40%;
+    padding-top: 5%;
+
+    display:flex;
+    justify-content:center;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.connecter {
+    color: blue;
+}
+.main{
+    
+    margin: 0;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    background: url("img1.jpg") no-repeat center center;
+    background-size: cover; 
+    animation: changerFond 15s infinite;
+    background-color: blue;
+}
+@keyframes changerFond {
+    0% {
+        background-image: url('c.jpg'); 
+    }
+    33.33% {
+        background-image: url('a.jpg'); 
+    }
+    66.66% {
+        background-image: url('b.jpg'); 
+    }
+    100% {
+        background-image: url('c.jpg'); 
+    }
+}
+main{
+    padding-top: 30px;
+    width: 80%;
+    max-width: 80%;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 70px;
+    background-color: blueviolet;
+}
+
+.font {
+    width: 20px;               
+    height: 20px;              
+    overflow: hidden;          
+    position: relative;        
+    color: blue;
+    object-fit: cover;
+}
+footer {
+    flex-direction: row;}
+    .footer1{
+        display: flex;
+        background-color: blue;
+}
+.zone_page{
+    flex-direction: column;
+    display: flex;
+    padding: 10px;
+    padding-top: 20px;
+    padding-left: 70px;
+}
+.zone_accueil{
+    flex-direction: column;
+    padding: 10px;
+    padding-left: 10px;
+    border-bottom: 1px solid white;
+}
+.zone_po{
+    flex-direction: column;
+    padding-left: 10px;
+}
+.zone_interne{
+    display: flex;
+}
+.ecriture2{
+    font-size: 17px;
+    color:white;
+}
+.zone_page_po{
+    flex-direction: column;
+}
+.icons_zone{
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    color:white;
+}
+.zone_accepter{
+    padding: 8px;
+}
+.image_paiement{
+    flex-direction: column;
+    display: flex;
+}
+.paiement{
+    padding-bottom:10px;
+}
+.boutton_paiement{
+    padding: 5px;
+    text-align:center;
+    transition: 0.3s ease;
+}
+.accept{
+    color:white;
+}
+.copyrigth{
+    display: flex;
+}
+.copyrigth_footer{
+    padding-right: 900px;
+}
+.footer2{
+    background-color: aquamarine;
+    margin: 1%;
+    justify-content: block;
+}
+
+.d1{
+    position: relative;
+    left: 10%;
+    background-color: rgb(219, 132, 11);
+    width: 30%;
+    justify-content: block;
+}
+.d2{
+    position: relative;
+    background-color: aquamarine;
+    width: 20%;
+    justify-content: block;
+}
+
+.d3{
+    position: relative;
+    width: 30%;
+    background-color: rgb(4, 170, 203);
+    justify-content: block;
+}
+
+.d4{
+    position: relative;
+    right: 10%;
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    justify-content: block;
+}
+.page{
+   
+    list-style: none;
+    justify-content: space-between;
+}
+
+.li {
+    margin-bottom: 5%; /* Ajoute un espace entre les éléments */
+}
